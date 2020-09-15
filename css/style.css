@@ -1,0 +1,15 @@
+/* Стили для Задания 3 */
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  column-gap: 20px;
+}
+
+.gallery__item {
+  list-style: none;
+}
+
+.gallery__image {
+  display: block;
+}
+
