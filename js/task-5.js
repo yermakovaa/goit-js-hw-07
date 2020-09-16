@@ -1,9 +1,9 @@
 const inputEl = document.getElementById('name-input');
 const outputEl = document.getElementById('name-output');
 
-const currentValueOutput = valueInput => {
+const currentValueOutput = event => {
   outputEl.textContent =
-    valueInput.target.value === '' ? 'незнакомец' : valueInput.target.value;
+    event.target.value === '' ? 'незнакомец' : event.target.value;
 };
 
 inputEl.addEventListener('input', currentValueOutput);
